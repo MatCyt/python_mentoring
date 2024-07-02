@@ -1,5 +1,5 @@
 
-def is_right_triangle(sides):
+def is_right_triangle(sides: list) -> bool:
     sides.sort()
     return sides[0]**2 + sides[1]**2 == sides[2]**2
 
